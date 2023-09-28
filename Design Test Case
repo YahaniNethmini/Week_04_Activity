@@ -1,0 +1,54 @@
+For the add function:
+
+Positive Test Cases:
+
+add(2, 3) should return 5.
+add(0, 0) should return 0.
+add(-2, 2) should return 0.
+
+Negative Test Cases:
+
+add("2", 3) should raise a TypeError since one of the inputs is not a number.
+add(2, "3") should raise a TypeError for the same reason.
+
+
+For the subtract function:
+
+Positive Test Cases:
+
+subtract(5, 3) should return 2.
+subtract(0, 0) should return 0.
+subtract(2, 5) should return -3.
+
+Negative Test Cases:
+
+subtract(2, "3") should raise a TypeError due to non-numeric input.
+subtract("5", 3) should raise a TypeError for the same reason.
+
+
+For the multiply function:
+
+Positive Test Cases:
+
+multiply(2, 3) should return 6.
+multiply(0, 5) should return 0.
+multiply(-2, 4) should return -8.
+
+Negative Test Cases:
+
+multiply(2, "3") should raise a TypeError due to non-numeric input.
+multiply("2", 3) should raise a TypeError for the same reason.
+
+
+For the divide function:
+
+Positive Test Cases:
+
+divide(6, 2) should return 3.0.
+divide(1, 3) should return approximately 0.333333 (within some tolerance).
+divide(-10, 2) should return -5.0.
+
+Negative Test Cases:
+
+divide(5, 0) should return "Cannot divide by zero" since division by zero is not allowed.
+divide(10, "2") should raise a TypeError due to non-numeric input.
